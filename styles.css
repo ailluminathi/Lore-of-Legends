@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Friz Quadrata';
+    src: url(assets/fontes/Friz-quadrata/Friz\ Quadrata\ Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Heavy.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-2ExtraLight_TRIAL.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-3Light_TRIAL.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-4SemiLight_TRIAL.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-5Regular_TRIAL.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-6SemiBold_TRIAL.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-7Bold_TRIAL.otf);
+    font-weight: 600;
+}
+
+:root {
+    --background: #111111;
+    --destaque: #C8AA6E;
+    --botao: #59C1DE;
+    --botao-hover: #2aa7c9;
+    --texto-primario: #FFFFFF;
+    --texto-secundario: #7e7e7e;
+
+    --fonte-logo: 'Friz Quadrata', sans-serif;
+    --fonte-titulo: 'Beaufort', sans-serif;
+    --fonte-texto: 'Spiegel', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    background-color: var(--background);
+    width: 100vw;
+    padding: 10px;
+}
+
+main {
+    background-image: url(assets/background-teemo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.titulo-logo {
+    text-align: center;
+}
+
+.titulo-logo-maior {
+    font-family: var(--fonte-logo);
+    color: var(--destaque);
+    font-size: .75em;
+    line-height: 1;
+}
+
+.titulo-logo-menor {
+    font-family: var(--fonte-logo);
+    color: var(--destaque);
+    font-size: .5em;
+}
+
+.container-pesquisa {
+    background-color: #111111de;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    border-radius: 20px;
+    gap: 40px;
+}
+
+.item-pesquisa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pesquisa-titulo {
+    font-family: var(--fonte-titulo);
+    color: var(--destaque);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.pesquisa-barra {
+    font-family: var(--fonte-texto);
+    width: 50%;
+    padding: 10px;
+    font-size: .75em;
+    border-radius: 20px;
+    border: none;
+}
+
+.pesquisa-botao {
+    width: 20%;
+    background-color: var(--botao);
+    border-radius: 20px;
+    border: none;
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.468);
+}
+
+.pesquisa-botao:hover {
+    box-shadow: 0px 0px 10px var(--botao-hover);
+    background-color: var(--botao-hover);
+}
+
+footer {
+    font-family: var(--fonte-texto);
+    background-color: var(--background);
+    color: var(--texto-secundario);
+    width: 100vw;
+    text-align: center;
+}
+
+@media (max-width:767px) {
+    .item-pesquisa {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .pesquisa-barra {
+        width: 80%;
+    }
+
+    .pesquisa-botao {
+        padding: 10px;
+        width: 80%;
+    }
+}
