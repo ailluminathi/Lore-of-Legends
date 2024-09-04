@@ -180,7 +180,7 @@ nav li {
 
 /* --------------------- */
 
-main {
+.main-home {
     background-image: url(assets/background-teemo.jpg);
     background-repeat: no-repeat;
     background-size: cover;

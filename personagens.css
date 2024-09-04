@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Friz Quadrata';
+    src: url(assets/fontes/Friz-quadrata/Friz\ Quadrata\ Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(assets/fontes/Beaufort/BeaufortforLOL-Heavy.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-2ExtraLight_TRIAL.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-3Light_TRIAL.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-4SemiLight_TRIAL.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-5Regular_TRIAL.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-6SemiBold_TRIAL.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Spiegel';
+    src: url(assets/fontes/Spiegel/SpiegelSans-7Bold_TRIAL.otf);
+    font-weight: 600;
+}
+
+:root {
+    --background: #111111;
+    --destaque: #C8AA6E;
+    --botao: #59C1DE;
+    --botao-hover: #2aa7c9;
+    --texto-primario: #FFFFFF;
+    --texto-secundario: #7e7e7e;
+
+    --fonte-logo: 'Friz Quadrata', sans-serif;
+    --fonte-titulo: 'Beaufort', sans-serif;
+    --fonte-texto: 'Spiegel', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: #111111de;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    margin: 70px 0px 70px 0px;
+    border-radius: 20px;
+    gap: 30px;
+}
+
+img {
+    width: 80%;
+    border-radius: 20px;
+    border: solid 2px var(--destaque);
+    padding: 10px;
+}
+
+h1 {
+    color: var(--destaque);
+    font-family: var(--fonte-titulo);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.434);
+    font-size: 2.5em;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span>span {
+    color: var(--destaque);
+    font-family: var(--fonte-texto);
+    font-size: .75em;
+}
+
+.paragrafos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+}
+
+p {
+    color: var(--texto-primario);
+    font-family: var(--fonte-texto);
+    font-size: .90em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.434);
+    line-height: 1.5;
+}
+
+@media (max-width:767px) {
+
+    main {
+        width: 90%;
+        padding: 50px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .paragrafos {
+        width: 100%;
+    }
+}
+
+/* estilo regiões */
+
+.campeoes-de {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.campeoes-de h2 {
+    color: var(--destaque);
+    font-family: var(--fonte-titulo);
+}
+
+.campeoes-de>div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.campeoes-de>div>div {
+    border: 1px solid var(--destaque);
+    padding: 15px 0px;
+    gap: 20px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.campeoes-de>div>div>a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campeoes-de>div>div>a>a {
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    color: var(--destaque);
+    font-size: 1.5em;
+}
+
+.campeoes-de h1 {
+    font-size: 1.5em;
+}
+
+.img-personagem-de {
+    width: 80%;
+    border-radius: 50%;
+    border: solid 1px var(--destaque);
+    padding: 5px;
+}
+
+.campeoes-de>div>div:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+    position: relative;
+    top: -10px;
+    box-shadow: 0px 0px 5px var(--destaque);
+}
