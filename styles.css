@@ -191,6 +191,21 @@ nav li {
     align-items: center;
     flex-direction: column;
     gap: 50px;
+    background-attachment: fixed;
+}
+
+.main-campeoes {
+    background-image: url(regiões/imagens-regiões/Runeterra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .container-pesquisa {
@@ -280,29 +295,37 @@ footer {
     border-radius: 20px;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 50px;
-}
-
-.container-resultado h3 {
-    color: var(--destaque);
-    font-family: var(--fonte-titulo);
-    font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
 
 .item-resultado {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
+    width: 200px;
+    border: 1px solid var(--destaque);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.item-resultado:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+    position: relative;
+    top: -10px;
+    box-shadow: 0px 0px 5px var(--destaque);
 }
 
 .item-resultado img {
     width: 150px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 100%;
     border: 2px solid var(--destaque);
     padding: 5px;
 }
@@ -310,6 +333,7 @@ footer {
 .item-resultado-descricao {
     display: flex;
     flex-direction: column;
+    text-align: justify;
 }
 
 .item-resultado-descricao h1 {
@@ -317,6 +341,7 @@ footer {
     font-weight: bold;
     color: var(--destaque);
     font-size: 1.5em;
+    text-align: center;
 }
 
 .item-resultado-descricao p {
@@ -338,5 +363,6 @@ footer {
 @media (max-width:767px) {
     .item-resultado {
         flex-direction: column;
+        width: 90%;
     }
 }

@@ -220,7 +220,8 @@ p {
 }
 
 .img-personagem-de {
-    width: 80%;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: solid 1px var(--destaque);
     padding: 5px;
