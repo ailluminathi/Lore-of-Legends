@@ -180,6 +180,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    user-select: none;
 }
 
 .campeoes-de h2 {
