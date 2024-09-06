@@ -15,6 +15,8 @@ O projeto Lore of Legends é uma base de dados interativa dos campeões de Leagu
 - **CSS3**: Estilização visual e responsividade.
 - **JavaScript**: Implementação da interatividade e gerenciamento da base de dados dos campeões.
 
+Apesar de parecer algo complexo, todas as páginas dos campeões e regiões seguem a mesma estrutura e compartilham o mesmo CSS. Essa uniformidade tornou o projeto muito mais simples de desenvolver, facilitando a manutenção e expansão.
+
 ## 📚 Funcionalidades
 
 - **Pesquisa por campeões**: permite que os usuários encontrem rapidamente as histórias de seus campeões favoritos.
