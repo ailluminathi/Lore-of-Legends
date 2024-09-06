@@ -97,6 +97,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: var(--background);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -194,7 +198,7 @@ nav li {
     flex-direction: column;
     gap: 50px;
     background-attachment: fixed;
-    min-height: 100dvh;
+    min-height: 92vh;
 }
 
 .main-campeoes {
@@ -231,6 +235,19 @@ nav li {
     gap: 5px;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.logo {
+    color: var(--destaque);
+    font-family: var(--fonte-logo);
+    font-size: 2em;
+}
+
+.container-pesquisa p {
+    color: var(--texto-primario);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
+    font-family: var(--fonte-texto);
+    width: 80%;
 }
 
 .pesquisa-titulo {
