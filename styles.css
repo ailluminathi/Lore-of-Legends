@@ -109,6 +109,19 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--destaque);
+    border-radius: 10px;
+}
+
 header {
     background-color: var(--background);
     width: 100vw;
@@ -198,7 +211,7 @@ nav li {
     flex-direction: column;
     gap: 50px;
     background-attachment: fixed;
-    min-height: 92vh;
+    min-height: 100dvh;
 }
 
 .main-campeoes {
