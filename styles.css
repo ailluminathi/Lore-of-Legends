@@ -211,7 +211,7 @@ nav li {
     flex-direction: column;
     gap: 50px;
     background-attachment: fixed;
-    min-height: 86.5dvh;
+    min-height: 100vh;
 }
 
 .main-campeoes {
