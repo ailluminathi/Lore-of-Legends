@@ -211,7 +211,7 @@ nav li {
     flex-direction: column;
     gap: 50px;
     background-attachment: fixed;
-    min-height: 100dvh;
+    min-height: 86.5dvh;
 }
 
 .main-campeoes {
@@ -302,7 +302,21 @@ footer {
     background-color: var(--background);
     color: var(--texto-secundario);
     width: 100vw;
+    padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.link-rodape {
+    text-decoration: none;
+    color: var(--botao);
+}
+
+.link-rodape:hover {
+    color: var(--botao-hover);
+    text-decoration: underline;
 }
 
 @media (max-width:767px) {
