@@ -340,6 +340,11 @@ footer {
     .container-pesquisa {
         width: 95%;
     }
+
+    .container-resultado {
+        width: 95%;
+    }
+    
 }
 
 .container-resultado {
