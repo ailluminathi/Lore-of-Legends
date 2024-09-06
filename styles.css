@@ -254,6 +254,8 @@ nav li {
     color: var(--destaque);
     font-family: var(--fonte-logo);
     font-size: 2em;
+    width: 100%;
+    text-align: center;
 }
 
 .container-pesquisa p {
