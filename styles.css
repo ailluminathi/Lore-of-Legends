@@ -148,6 +148,7 @@ header {
 
 .nav-menu a {
     text-decoration: none;
+    user-select: none;
 }
 
 nav a {
