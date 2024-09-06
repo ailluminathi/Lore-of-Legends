@@ -56,7 +56,7 @@ let personagens = [
     {
         titulo: "Kai'Sa",
         descricao: "Talvez a coisa mais impressionante sobre a destemida caçadora do Vazio conhecida como Kai’Sa seja a forma pouco...",
-        link: "regiões/o_vazio/Kaisa.html",
+        link: "regiões/o_vazio/kaisa.html",
         imagem: "assets/personagens/Kaisa.png"
     },
     {
