@@ -4,7 +4,7 @@
 
 ## 🎮 Sobre o Projeto
 
-O projeto Lore of Legends é uma base de dados interativa dos campeões de League of Legends, permitindo aos fãs explorar as histórias épicas que moldam Runeterra. Cada campeão possui uma página dedicada, assim como as 14 regiões que compõem o mundo de League of Legends.
+O projeto Lore of Legends foi desenvolvido em várias etapas. Primeiro, fiz uma lista de campeões, selecionando dois de cada região de League of Legends que eu pretendia incluir no projeto. Em seguida, criei a página inicial e adicionei uma barra de pesquisa, conforme aprendido nas aulas. Desenvolvi a primeira página de campeão, focando bastante no CSS para garantir um visual atraente e funcional. Com essa página pronta, utilizei sua estrutura como base para construir as outras páginas, mantendo o mesmo layout e estilo, variando apenas o conteúdo de cada uma, o que facilitou bastante a criação de várias páginas. Após isso, conectei todas as páginas utilizando a tag âncora `<a>`, garantindo uma navegação fluida. Por fim, organizei a base de dados de cada campeão em um arquivo `.js` e criei a função de pesquisa em um arquivo separado. Essa função pesquisa na base de dados os campeões que correspondem ao nome ou letra inserida. Se nenhum campeão for encontrado, uma mensagem de erro será exibida abaixo. Caso a caixa de pesquisa esteja em branco, outra mensagem de erro será exibida.
 
 - 29 páginas dedicadas a campeões, cada uma apresentando detalhes sobre a história e origem do personagem.
 - 14 páginas com informações e descrições sobre as diferentes regiões do universo de LoL, como Demacia, Noxus, Ionia, entre outras.
