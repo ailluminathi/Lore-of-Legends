@@ -1,4 +1,4 @@
-# Lore of Legends
+# Lore of Legends ⚔
 
 **Lore of Legends** é um projeto que explora o vasto universo de **League of Legends**, oferecendo uma imersão completa nas histórias dos campeões e nas regiões que formam Runeterra. Este projeto foi desenvolvido durante a Imersão DEV da **Alura** em parceria com o **Google Gemini**, utilizando **HTML**, **CSS** e **JavaScript**.
 
