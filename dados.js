@@ -26,7 +26,7 @@ let personagens = [
     {
         titulo: "Bel'Veth",
         descricao: "Fascinada pelo mundo da existência e disposta a criar um para si mesma, Bel’Veth é como um câncer sombrio em metástase...",
-        link: "regiões/o_vazio/Belveth.html",
+        link: "regiões/o_vazio/belveth.html",
         imagem: "assets/personagens/Belveth.png"
     },
     {
