@@ -334,6 +334,10 @@ footer {
         padding: 10px;
         width: 80%;
     }
+
+    .container-pesquisa {
+        width: 95%;
+    }
 }
 
 .container-resultado {
