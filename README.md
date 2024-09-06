@@ -4,7 +4,7 @@
 
 ## 🎮 Sobre o Projeto
 
-O objetivo do projeto **Lore of Legends** é proporcionar aos fãs de League of Legends uma experiência interativa ao explorar as histórias épicas que moldam Runeterra. Cada campeão tem sua própria página dedicada, assim como as 14 regiões que compõem o mundo de League of Legends.
+O projeto Lore of Legends é uma base de dados interativa dos campeões de League of Legends, permitindo aos fãs explorar as histórias épicas que moldam Runeterra. Cada campeão possui uma página dedicada, assim como as 14 regiões que compõem o mundo de League of Legends.
 
 - 29 páginas dedicadas a campeões, cada uma apresentando detalhes sobre a história e origem do personagem.
 - 14 páginas com informações e descrições sobre as diferentes regiões do universo de LoL, como Demacia, Noxus, Ionia, entre outras.
@@ -13,7 +13,7 @@ O objetivo do projeto **Lore of Legends** é proporcionar aos fãs de League of 
 
 - **HTML5**: Estruturação das páginas.
 - **CSS3**: Estilização visual e responsividade.
-- **JavaScript**: Interatividade das páginas.
+- **JavaScript**: Implementação da interatividade e gerenciamento da base de dados dos campeões.
 
 ## 📚 Funcionalidades
 
