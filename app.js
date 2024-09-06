@@ -6,9 +6,17 @@ function pesquisar() {
     // Obtém a seção HTML onde os resultados da pesquisa serão exibidos
     let section = document.getElementById("resultados-pesquisa");
 
-    // Se o valor da pesquisa estiver vazio, limpa os resultados e esconde a seção
+    // Obtém o parágrafo de erro
+    let erroParagrafo = document.getElementById("erro-pesquisa");
+
+    // Limpa os resultados e oculta a mensagem de erro
+    section.innerHTML = "";
+    erroParagrafo.style.display = "none";
+
+    // Se o valor da pesquisa estiver vazio, exibe mensagem de erro
     if (valorPesquisa === "") {
-        section.innerHTML = "";
+        erroParagrafo.innerText = "Digite um campeão.";
+        erroParagrafo.style.display = "block";
         section.style.display = "none";
         return;
     }
@@ -36,10 +44,13 @@ function pesquisar() {
     // Atribui a string com os resultados ao conteúdo HTML da seção
     section.innerHTML = resultados;
 
-    // Mostra a seção de resultados se houver resultados; caso contrário, oculta
+    // Verifica se encontrou algum resultado
     if (resultados.trim() === "") {
+        erroParagrafo.innerText = "Campeão não encontrado ou não cadastrado.";
+        erroParagrafo.style.display = "block";
         section.style.display = "none";
     } else {
-        section.style.display = "block";
+        erroParagrafo.style.display = "none";
+        section.style.display = "flex";
     }
 }

@@ -302,6 +302,13 @@ nav li {
     background-color: var(--botao-hover);
 }
 
+#erro-pesquisa {
+    color: red;
+    font-size: .75;
+    text-align: center;
+    box-shadow: 1px solid rgba(0, 0, 0, 0.385);
+}
+
 footer {
     font-family: var(--fonte-texto);
     background-color: var(--background);
