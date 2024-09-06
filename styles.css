@@ -141,6 +141,7 @@ header {
     justify-content: center;
     list-style-type: none;
     font-family: var(--fonte-titulo);
+    user-select: none;
 }
 
 
