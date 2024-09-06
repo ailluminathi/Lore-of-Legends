@@ -319,7 +319,7 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width:767px) {
+@media (max-width:1024px) {
     .item-pesquisa {
         flex-direction: column;
         align-items: center;
