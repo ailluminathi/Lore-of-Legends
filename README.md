@@ -2,7 +2,7 @@
 
 **Lore of Legends** é um projeto que explora o vasto universo de **League of Legends**, oferecendo uma imersão completa nas histórias dos campeões e nas regiões que formam Runeterra. Este projeto foi desenvolvido durante a Imersão DEV da **Alura** em parceria com o **Google Gemini**, utilizando **HTML**, **CSS** e **JavaScript**.
 
-## 🎮 Sobre o Projeto
+## 👩🏻‍💻 Sobre o Projeto
 
 O projeto Lore of Legends foi desenvolvido em várias etapas. Primeiro, fiz uma lista de campeões, selecionando dois de cada região de League of Legends que eu pretendia incluir no projeto. Em seguida, criei a página inicial e adicionei uma barra de pesquisa, conforme aprendido nas aulas. Durante as aulas, aprendemos a colocar a tag âncora `<a>` para redirecionar diretamente a outra página com mais informações, mas eu decidi me desafiar e criar todas essas páginas dentro da própria aplicação. Desenvolvi a primeira página de campeão, focando bastante no CSS para garantir um visual atraente e funcional. Com essa página pronta, utilizei sua estrutura como base para construir as outras páginas, mantendo o mesmo layout e estilo, variando apenas o conteúdo de cada uma, o que facilitou bastante a criação de várias páginas. Após isso, conectei todas as páginas utilizando a tag âncora `<a>`, garantindo uma navegação fluida. Por fim, organizei a base de dados de cada campeão em um arquivo `.js` e criei a função de pesquisa em um arquivo separado. Essa função pesquisa na base de dados os campeões que correspondem ao nome ou letra inserida. Se nenhum campeão for encontrado, uma mensagem de erro será exibida abaixo. Caso a caixa de pesquisa esteja em branco, outra mensagem de erro será exibida.
 
