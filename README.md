@@ -3,6 +3,7 @@
 **Lore of Legends** é um projeto que explora o vasto universo de **League of Legends**, oferecendo uma imersão completa nas histórias dos campeões e nas regiões que formam Runeterra. Este projeto foi desenvolvido durante a Imersão DEV da **Alura** em parceria com o **Google Gemini**, utilizando **HTML**, **CSS** e **JavaScript**.
 
 ![image](https://github.com/user-attachments/assets/2ff60a9d-8952-4eea-970e-905202064fd2)
+
 ![image](https://github.com/user-attachments/assets/fd7f9a37-4734-4c8f-9c34-7d6b62a6b775)
 
 
