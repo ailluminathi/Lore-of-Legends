@@ -2,12 +2,19 @@
 
 **Lore of Legends** é um projeto que explora o vasto universo de **League of Legends**, oferecendo uma imersão completa nas histórias dos campeões e nas regiões que formam Runeterra. Este projeto foi desenvolvido durante a Imersão DEV da **Alura** em parceria com o **Google Gemini**, utilizando **HTML**, **CSS** e **JavaScript**.
 
+![image](https://github.com/user-attachments/assets/2ff60a9d-8952-4eea-970e-905202064fd2)
+![image](https://github.com/user-attachments/assets/fd7f9a37-4734-4c8f-9c34-7d6b62a6b775)
+
+
+
 ## 👩🏻‍💻 Sobre o Projeto
 
 O projeto Lore of Legends foi desenvolvido em várias etapas. Primeiro, fiz uma lista de campeões, selecionando dois de cada região de League of Legends que eu pretendia incluir no projeto. Em seguida, criei a página inicial e adicionei uma barra de pesquisa, conforme aprendido nas aulas. Durante as aulas, aprendemos a colocar a tag âncora `<a>` para redirecionar diretamente a outra página com mais informações, mas eu decidi me desafiar e criar todas essas páginas dentro da própria aplicação. Desenvolvi a primeira página de campeão, focando bastante no CSS para garantir um visual atraente e funcional. Com essa página pronta, utilizei sua estrutura como base para construir as outras páginas, mantendo o mesmo layout e estilo, variando apenas o conteúdo de cada uma, o que facilitou bastante a criação de várias páginas. Após isso, conectei todas as páginas utilizando a tag âncora `<a>`, garantindo uma navegação fluida. Por fim, organizei a base de dados de cada campeão em um arquivo `.js` e criei a função de pesquisa em um arquivo separado. Essa função pesquisa na base de dados os campeões que correspondem ao nome ou letra inserida. Se nenhum campeão for encontrado, uma mensagem de erro será exibida abaixo. Caso a caixa de pesquisa esteja em branco, outra mensagem de erro será exibida.
 
 - 29 páginas dedicadas a campeões, cada uma apresentando detalhes sobre a história e origem do personagem.
 - 14 páginas com informações e descrições sobre as diferentes regiões do universo de LoL, como Demacia, Noxus, Ionia, entre outras.
+
+![image](https://github.com/user-attachments/assets/223516dd-8e4f-4fdf-9334-250de20bfcab)
 
 ## 🛠️ Tecnologias Utilizadas
 
