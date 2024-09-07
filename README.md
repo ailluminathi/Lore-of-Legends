@@ -3,8 +3,7 @@
 **Lore of Legends** é um projeto que explora o vasto universo de **League of Legends**, oferecendo uma imersão completa nas histórias dos campeões e nas regiões que formam Runeterra. Este projeto foi desenvolvido durante a Imersão DEV da **Alura** em parceria com o **Google Gemini**, utilizando **HTML**, **CSS** e **JavaScript**.
 
 ![image](https://github.com/user-attachments/assets/2ff60a9d-8952-4eea-970e-905202064fd2)
-
-![image](https://github.com/user-attachments/assets/fd7f9a37-4734-4c8f-9c34-7d6b62a6b775)
+(Página inicial)
 
 
 
@@ -16,6 +15,9 @@ O projeto Lore of Legends foi desenvolvido em várias etapas. Primeiro, fiz uma 
 - 14 páginas com informações e descrições sobre as diferentes regiões do universo de LoL, como Demacia, Noxus, Ionia, entre outras.
 
 ![image](https://github.com/user-attachments/assets/223516dd-8e4f-4fdf-9334-250de20bfcab)
+(Página com todos os campeões disponiveis no projeto, ela utiliza a mesma estrutura e estilo dos resultados de pesquisa da página inicial)
+
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -25,11 +27,15 @@ O projeto Lore of Legends foi desenvolvido em várias etapas. Primeiro, fiz uma 
 
 Apesar de parecer algo complexo, todas as páginas dos campeões e regiões seguem a mesma estrutura e compartilham o mesmo CSS. Essa uniformidade tornou o projeto muito mais simples de desenvolver, facilitando a manutenção e expansão.
 
+
+
 ## 📚 Funcionalidades
 
 - **Pesquisa por campeões**: permite que os usuários encontrem rapidamente as histórias de seus campeões favoritos.
 - **Seções interativas**: ao clicar em cada campeão ou região, você pode explorar mais detalhes e descrições exclusivas.
 - **Navegação intuitiva** entre as páginas de campeões e regiões.
+
+
 
 ## 📦 Estrutura do Projeto
 
@@ -39,11 +45,15 @@ O projeto contém:
 - **Páginas de Campeões**: Cada uma apresenta o nome, descrição, e uma breve biografia dos personagens jogáveis.
 - **Páginas de Regiões**: Detalhes sobre as regiões de Runeterra, suas histórias e como se conectam ao universo de LoL.
 
+
+
 ## 🎯 Como Usar
 
 - Acesse o projeto: https://lore-of-legends.vercel.app/
 - Na página inicial, você pode usar a barra de pesquisa para buscar campeões específicos.
 - Explore as páginas dedicadas a cada um dos campeões e regiões para aprender mais sobre suas histórias.
+
+
 
 ## 📄 Licença
 
